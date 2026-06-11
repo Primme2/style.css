@@ -6,7 +6,7 @@
     and you can observe it as an example. The sticks, buttons, and directional arrows are missing
     because their appropriate elements will be incorperated when their styling is defined below.
     The entirity of the skin's visual styling is done via background images and CSS sprites. */ 
-    background: urlhttps://www.vhv.rs/dpng/d/451-4512168_spyro-reignited-trilogy-png-transparent-png.png); 
+    background: url(https://www.vhv.rs/dpng/d/451-4512168_spyro-reignited-trilogy-png-transparent-png.png); 
     height: 555px;
     width: 1084px;
 }
