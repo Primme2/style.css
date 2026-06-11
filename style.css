@@ -1,4 +1,4 @@
-/*BEGIN BLUE SN30 Pro Controller Styling - based on uploaded style.css*/
+/*BEGIN SN30 Pro Controller Styling*/
 /*This class defines the base attributes of the skin*/
 .controller.custom{
     /* The background image is basically the base for the controller's skin. The 
@@ -6,7 +6,7 @@
     and you can observe it as an example. The sticks, buttons, and directional arrows are missing
     because their appropriate elements will be incorperated when their styling is defined below.
     The entirity of the skin's visual styling is done via background images and CSS sprites. */ 
-    background: url(https://i.imgur.com/CX5mr50.png); 
+    background: urlhttps://www.vhv.rs/dpng/d/451-4512168_spyro-reignited-trilogy-png-transparent-png.png); 
     height: 555px;
     width: 1084px;
 }
@@ -78,7 +78,7 @@ PS3 controller but it'd be pointless for me to change the HTML for
 something as pedantic as a name. */
 .custom .quadrant{
     position: absolute;
-    background: url(https://gamepadviewer.com/ps3-assets/player-n.png);
+    background: url(ps3-assets/player-n.png);
     height: 17px;
     width: 111px;
     top: 140px;
@@ -288,53 +288,4 @@ themselves are fairly self explanatory. */
 .fstick.down.left{
   
 }
-
-
-/* --- Blue recolor layer ---
-   This keeps all original SN30 Pro layout/positioning, but recolors the image sprites blue.
-   Adjust --blue-filter if you want a different shade.
-*/
-:root {
-    --blue-filter: hue-rotate(185deg) saturate(2.2) brightness(1.08) contrast(1.08);
-    --blue-pressed-filter: hue-rotate(185deg) saturate(2.8) brightness(1.35) contrast(1.15);
-}
-
-.controller.custom,
-.custom.disconnected,
-.custom .trigger,
-.custom .bumper,
-.custom .back,
-.custom .start,
-.custom .button,
-.custom .stick,
-.custom .face.up,
-.custom .face.down,
-.custom .face.left,
-.custom .face.right {
-    -webkit-filter: var(--blue-filter);
-    filter: var(--blue-filter);
-}
-
-.custom .trigger.pressed,
-.custom .bumper.pressed,
-.custom .back.pressed,
-.custom .start.pressed,
-.custom .button.pressed,
-.custom .stick.pressed,
-.custom .face.pressed {
-    -webkit-filter: var(--blue-pressed-filter);
-    filter: var(--blue-pressed-filter);
-}
-
-.custom .button.pressed,
-.custom .face.pressed,
-.custom .bumper.pressed,
-.custom .trigger.pressed,
-.custom .back.pressed,
-.custom .start.pressed,
-.custom .stick.pressed {
-    -webkit-filter: var(--blue-pressed-filter) drop-shadow(0 0 8px #00b7ff);
-    filter: var(--blue-pressed-filter) drop-shadow(0 0 8px #00b7ff);
-}
-
-/*END BLUE SN30 Pro Controller Styling*/
+/*END SN30 Pro Controller Styling*/
