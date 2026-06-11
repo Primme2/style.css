@@ -1,0 +1,21 @@
+.custom .controller {
+  filter: hue-rotate(190deg) saturate(1.8) brightness(1.05);
+}
+
+.custom .face,
+.custom .body,
+.custom .bumper,
+.custom .trigger,
+.custom .stick,
+.custom .button {
+  background-color: #007bff !important;
+  border-color: #004caa !important;
+}
+
+.custom .button.pressed,
+.custom .stick.pressed,
+.custom .trigger.pressed,
+.custom .bumper.pressed {
+  background-color: #00b7ff !important;
+  box-shadow: 0 0 12px #00b7ff;
+}
